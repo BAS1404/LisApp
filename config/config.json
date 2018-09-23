@@ -1,0 +1,18 @@
+{
+  "port": "8080",
+  "mongoose": {
+    "url": "mongodb://bas:Alex1404Britvin96@ds052978.mlab.com:52978/lis",
+    "options": {
+      "useNewUrlParser": true
+    }
+  },
+  "session": {
+    "secret": "LiS20CoMpAnY18",
+    "key": "sid",
+    "cookie": {
+      "path": "/",
+      "httpOnly": true,
+      "maxAge": null
+    }
+  }
+}
